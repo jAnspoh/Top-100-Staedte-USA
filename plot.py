@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 def to_float(string):
     nums = []
     for num in string:
-        if type(num) == int: return string
+        if type(num) is int: return string
         nums.append(float(num.replace("\xa0" ,"")))
     return nums
 
