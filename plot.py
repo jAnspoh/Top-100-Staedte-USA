@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-COLOR = "violet"
+COLOR = "cornflowerblue"
 
 def to_float(string):
     nums = []
